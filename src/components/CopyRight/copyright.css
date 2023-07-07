@@ -1,0 +1,27 @@
+.box__copyRight{
+    background-color: #ebfeff;
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+}
+.box__content__finaly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+
+}
+.txt__copyRight{
+    font-family: "TTNorms Light";
+
+}
+.team__social{
+    font-family: "TTNorms Medium";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+    
+
+}

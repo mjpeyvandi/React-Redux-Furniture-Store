@@ -1,0 +1,67 @@
+.box__subscribe{
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: 13.5rem;
+    background-color: rgb(208, 230, 234);
+
+}
+.subscribe__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+
+}
+.subscribe__content__left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.titr__join{
+    font-family: "TTNorms Medium";
+
+}
+.desc__sub{
+    font-family: "TTNorms Light";
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    margin-top: 10px;
+}
+.subscribe__content__right{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+}
+.input__email{
+    border: none;
+    height: 28%;
+    background-color: rgb(208, 230, 234);
+    border-bottom: solid 1px;
+    font-family: "TTNorms Medium";
+    font-size: 1.5rem;
+}
+
+.input__email:focus{
+    outline: none;
+
+}
+
+.box__btn__sub{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0.3;
+    border: none;
+}
+.btn__sub{
+    border: none;
+    width: 40%;
+    font-family: "TTNorms Medium";
+    color: white;
+    background-color: #464646;
+
+}

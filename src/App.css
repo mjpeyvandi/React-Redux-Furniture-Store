@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "TTNorms";
+  src: url("fonts/Times-new-roman-italic.ttf") format("openType");
+}
+@font-face {
+  font-family: "TTNorms Medium";
+  src: url("./fonts/TTNorms-Medium.otf") format("openType");
+}
+@font-face {
+  font-family: "TTNorms Light";
+  src: url("./fonts/TTNorms-Light.otf") format("openType");
+}
+
+@font-face {
+  font-family: "Times Roman Italic";
+  src: url("./fonts/Times-new-roman-italic.ttf") format("truetype");
+}
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +54,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  max-width: 90rem;
+  height: 100%;
+  margin-right: 24%;
+  margin-left: 20%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.icon{
+  margin: 0 0.5rem;
+
 }

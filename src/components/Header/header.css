@@ -1,0 +1,175 @@
+.header {
+  margin: 0;
+}
+
+.header__top {
+  background-color: rgb(235, 241, 243);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(213, 212, 212);
+}
+
+.header__left__list,
+.header__center__list,
+.header__right__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 100%;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.header__center__list,
+.header__right__list {
+  font-family: "TTNorms Light";
+}
+
+.item:hover {
+  color: rgb(140, 9, 201);
+  transition: 100ms;
+}
+
+.item {
+  text-decoration: none;
+  font-family: "TTNorms Light";
+  color: black;
+}
+
+.header__left__list {
+  font-family: "TTNorms Medium";
+  font-weight: bold;
+}
+
+.header__right {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header__left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__right__list__item {
+  margin: 0 0.5rem;
+  border-left: 1px solid rgb(213, 212, 212);
+}
+
+.header__left__list__item {
+  padding: 0.5rem;
+  border-left: 1px solid rgb(213, 212, 212);
+  font-size: 1.4rem;
+}
+#header__left__list__item {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  margin-top: 0.3rem;
+}
+
+.icon {
+  margin: 0 0.5rem;
+}
+
+/* search style */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+
+.modal {
+  width: 50%;
+  background-color: rgb(235, 241, 243);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: black;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-radius: 7px;
+}
+
+h3 {
+  font-family: "TTNorms Medium";
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.s__icon__close {
+  align-self: end;
+  color: black;
+  overflow: visible;
+}
+
+.s__icon__close:hover {
+  color: rgb(156, 20, 20);
+  cursor: pointer;
+}
+
+.s__input {
+  width: 80%;
+  min-height: 2rem;
+  color: black;
+  outline: none;
+  border: none;
+  font-family: "TTNorms Light";
+  order: 1;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.box__result {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 10px;
+  overflow-y: auto;
+  order: 2;
+}
+
+.box__result::-webkit-scrollbar {
+    display: none;
+}
+
+.search__result {
+    width: 98%;
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.search__result:hover {
+    background-color: rgb(170, 224, 241);
+    transition: 1000ms;
+    cursor: pointer;
+}
+
+.s__img {
+  width: 7rem;
+  height: 4rem;
+}
+
+.s__name {
+  font-family: "TTNorms Medium";
+}

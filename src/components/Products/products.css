@@ -1,0 +1,380 @@
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 7%;
+    height: 100%;
+    width: 100%;
+
+}
+
+.show__product{
+    background-color: rgb(235, 241, 243);
+
+}
+
+.all__box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.custom__box{
+    display: flex;
+    justify-content: space-between;
+    font-family: "TTNorms Light";
+
+}
+
+/* box left */
+
+.box__left__dir{
+    max-width: 24%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #464646;
+
+}
+
+.box__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 11.5rem;
+}
+.box__categori{
+    color: white;
+    margin-top: 30%;
+
+
+}
+.txt__categori{
+    font-family: "TTNorms Medium";
+}
+.list__categori{
+    display: flex;
+    justify-content: space-between;
+}
+.list__categori__content{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "TTNorms Light";
+    font-weight: 15;
+    font-size: 0.9rem;
+
+}
+.list__categori__item{
+    margin-right: 50%;
+    padding: 15%;
+    font-family: 'TTNorms Light';
+    cursor: pointer;
+
+}
+
+.list__categori__item:hover{
+    color: rgb(170, 129, 189);
+    transition: 100ms;
+}
+
+.box__filter{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25%;
+
+}
+.txt__filter{
+    font-family: "TTNorms Medium";
+}
+.filter_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15%;
+
+}
+.filter__color{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt__color{
+    margin-bottom: 15%;
+    font-family: "TTNorms Light";
+
+}
+
+.colors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.c__yellow{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(252, 252, 2);
+    display: inline-block;
+}
+.c__blue{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(2, 19, 252);
+    display: inline-block;
+}
+.c__white{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+.c__red{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(252, 10, 2);
+    display: inline-block;
+}
+.c__green{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(56, 252, 2);
+    display: inline-block;
+}
+.c__orange{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(252, 110, 2);
+    display: inline-block;
+}
+.c__banafsh{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: rgb(252, 2, 106);
+    display: inline-block;
+}
+.filter__range{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+    max-width: 100%;
+    margin: 12%;
+
+}
+.txt__price{
+    font-family: "TTNorms Light";
+
+}
+
+.show__txt__range{
+    margin-bottom: 0px;
+}
+.range{
+    margin-top: 1rem;
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: white; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    margin-top: 0px;
+
+}
+
+.range:hover{
+    opacity: 1;
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background-color: #c6c3c3;
+    cursor: pointer;
+}
+
+.range::-moz-range-thumb{
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background-color: #c6c3c3;
+    cursor: pointer;
+}
+
+.box__txt__renge{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: 'TTNorms Light';
+    margin-top: 5px;
+
+}
+
+.txt__range{
+    font-family: 'TTNorms Light';
+    font-size: small;
+    font-weight: 30;
+}
+
+/* box right */
+
+.box__right__dir{
+    height: 100%;
+    width: 76%;
+    margin-left: 1rem;
+
+}
+.box__product{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.card__item{
+    background-color: white;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 11rem;
+    margin-bottom: 1.5rem;
+    height: 23rem;
+
+}
+.img{
+    width: 10rem;
+    height: 7rem;
+
+}
+.name__product{
+    font-family: "TTNorms Medium";
+
+}
+.price__product{
+    font-family: "TTNorms Light";
+
+}
+
+/* item column */
+
+.card__item__column{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    padding: 1rem;
+
+}
+
+.link__btn__column{
+    outline: none;
+    border: none;
+    background-color: #c6c3c3;
+    font-family: "TTNorms Light";
+    width: 20%;
+    height: 2rem;
+    font-weight: normal;
+    cursor: pointer;
+
+}
+
+
+.link__btn__column:hover{
+    background-color: #2b69bb;
+    font-weight: bold;
+    transition: 0.5s;
+    color: white;
+}
+
+.more__btn{
+    width: 74%;
+    height: 2rem;
+    border: none;
+    background-color: #c6c3c3;
+    font-family: "TTNorms Light";
+    cursor: pointer;
+    align-self: flex-end;
+    margin-bottom: 5%;
+
+
+}
+
+.more__btn:hover{
+    background-color: #2b69bb;
+    font-weight: bold;
+    transition: 0.5s;
+    color: white;
+}
+
+
+.link{
+    outline: none;
+    border: none;
+    background-color: #c6c3c3;
+    font-family: "TTNorms Light";
+    width: 50%;
+    height: 2rem;
+    font-weight: normal;
+    cursor: pointer;
+
+}
+
+
+.link:hover{
+    background-color: #2b69bb;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.btn__buy{
+    outline: none;
+    border: none;
+    background-color: #c6c3c3;
+    font-family: "TTNorms Light";
+    width: 100%;
+    height: 100%;
+    font-weight: normal;
+    cursor: pointer;
+
+}
+
+
+.btn__buy:hover{
+    background-color: #2b69bb;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    color: white;
+}

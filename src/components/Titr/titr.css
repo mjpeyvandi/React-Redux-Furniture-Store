@@ -1,0 +1,31 @@
+.titr__main{
+
+    background-color: rgb(235, 241, 243);
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+.titr__main__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.titr__page{
+
+    font-family: "TTNorms Medium";
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.list__page{
+    margin-right: 2rem;
+    font-family: "TTNorms Light";
+    font-style: normal;
+}
+
+.list__page__items{
+    padding: 0.5rem;
+}

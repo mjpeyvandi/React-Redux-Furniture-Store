@@ -1,0 +1,80 @@
+.product{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+.image__product{
+    width: 70%;
+    height: 60%;
+}
+
+.info__product{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.desc__product{
+    width: 90%;
+}
+
+.buttons{
+    width: 50%;
+    height: 36px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.quantity__box{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border: 0.2px solid rgb(172, 172, 172);
+    padding: 1rem;
+    width: 55%;
+    height: 5%;
+}
+
+button{
+    outline: none;
+    border: 0.2px solid rgb(172, 172, 172);
+    color: rgb(82, 82, 82);
+    background-color: white;
+    cursor: pointer;
+}
+
+.text__quantity{
+    tab-size: 12rem;
+    color: rgb(82, 82, 82);
+    font-family: "TTNorms Light";
+}
+
+
+.btn__add{
+    margin-left: 1rem;
+    margin-left: 1rem;
+    height: 120%;
+    width: 120%;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-family: "TTNorms Medium";
+}
+
+.btn__add:hover{
+    color: black;
+    background-color: aqua;
+    transition: 1000ms;
+}
