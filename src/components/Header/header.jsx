@@ -38,7 +38,7 @@ export const Header = () => {
         <div className="header__left">
           <ul className="header__left__list">
             <li id="header__left__list__item">
-              <GoThreeBars className="icon" />
+              <GoThreeBars className="icon__h" />
             </li>
             <li className="header__left__list__item">Stile</li>
           </ul>
@@ -81,19 +81,20 @@ export const Header = () => {
           <ul className="header__right__list">
             <li className="header__right__list__item">
               <BiSearchAlt2
-                className="icon"
+                className="icon__h"
                 onClick={() => setModalIsOpen(true)}
               />
+              Search
             </li>
             <li className="header__right__list__item">
-              <VscAccount className="icon" />
+              <VscAccount className="icon__h" />
               <Link to={"/"} className="item">
                 {" "}
                 My Account{" "}
               </Link>
             </li>
             <li className="header__right__list__item">
-              <FaShoppingCart className="icon" />
+              <FaShoppingCart className="icon__h" />
               <Link to={"/cart"} className="item">
                 {" "}
                 Cart{" "}

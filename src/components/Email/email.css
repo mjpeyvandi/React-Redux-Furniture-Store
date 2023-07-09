@@ -65,3 +65,34 @@
     background-color: #464646;
 
 }
+
+/* respnsive */
+
+@media (max-width: 600px) {
+    .box__subscribe {
+      height: auto;
+    }
+    .subscribe__content {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    .subscribe__content__left,
+    .subscribe__content__right {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+    .input__email {
+      height: 40px;
+    }
+    .box__btn__sub {
+      justify-content: center;
+    }
+    .btn__sub {
+      width: 60%;
+      margin-top: 10px;
+      height: 2rem;
+      border-radius: 7px;
+      font-family: "TTNorms Light";
+    }
+  }
