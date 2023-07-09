@@ -25,3 +25,31 @@
     
 
 }
+
+/* responsive */
+
+@media (max-width: 600px) {
+    .box__copyRight {
+      display: inline-block;
+      margin: 0;
+      width: 100%;
+
+    }
+    
+    .box__content__finaly {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .txt__copyRight{
+        font-family: "TTNorms Light";
+        line-height: 1.5rem;
+    
+    }
+    
+    .team__social {
+      width: 100%;
+      align-items: center;
+    }
+  }

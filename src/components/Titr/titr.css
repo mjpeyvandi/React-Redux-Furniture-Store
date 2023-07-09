@@ -29,3 +29,40 @@
 .list__page__items{
     padding: 0.5rem;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 500px) {
+
+    .titr__main {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .titr__main__content {
+      padding: 1rem;
+      align-items: center;
+    }
+  
+    .titr__page {
+      font-size: 1.5rem;
+    }
+  
+    .list__page {
+      margin-right: 0;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      
+    }
+  
+    .list__page__items {
+      padding: 0.2rem;
+    }
+
+    .list__page__container {
+      align-self: flex-end;
+  }
+  
+  }

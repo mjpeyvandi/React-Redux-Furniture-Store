@@ -6,8 +6,9 @@
   background-color: rgb(235, 241, 243);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   border-bottom: 1px solid rgb(213, 212, 212);
+
 }
 
 .header__left__list,
@@ -70,7 +71,7 @@
   margin-top: 0.3rem;
 }
 
-.icon {
+.icon__h {
   margin: 0 0.5rem;
 }
 
@@ -172,4 +173,84 @@ h3 {
 
 .s__name {
   font-family: "TTNorms Medium";
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 600px) {
+  .header__left__list,
+  .header__center__list,
+  .header__right__list {
+    padding: 0.5rem;
+    margin: 0.5rem;
+    
+  }
+
+  .header__left__list,
+  .header__center__list,
+  .header__right__list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    
+  }
+
+  .header__right {
+    justify-content: center;
+  }
+
+  .header__right__list__item {
+    margin: 0.3rem;
+    border-left: none;
+  }
+
+  .header__left__list__item {
+    border-left: none;
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+    margin-right: 0;
+  }
+
+  #header__left__list__item {
+    margin-top: 0.1rem;
+    margin-right: 0;
+  }
+
+  .icon__h {
+    display: none;
+  }
+
+  /* search style */
+
+  .modal {
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .s__input {
+    width: 90%;
+    min-height: 1.5rem;
+    font-size: 0.8rem;
+    padding: 3px;
+  }
+
+  .box__result {
+    width: 90%;
+    margin-top: 5px;
+    gap: 0.5rem;
+  }
+
+  .s__img {
+    width: 5rem;
+    height: 3rem;
+  }
 }

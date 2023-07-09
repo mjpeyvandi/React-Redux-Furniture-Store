@@ -20,3 +20,17 @@
 .select__sort:focus{
     outline: none;
 }
+/* responsive */
+
+@media (max-width: 768px) {
+    .sort__box{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .item__sort{
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+    }

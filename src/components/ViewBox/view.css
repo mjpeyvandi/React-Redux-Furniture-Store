@@ -16,3 +16,9 @@
     color: rgb(140, 9, 201);
     transition: 100ms;
 }
+
+@media(max-width:760px){
+    .view__box{
+        display: none;
+    }
+}
